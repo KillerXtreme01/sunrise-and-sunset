@@ -40,40 +40,40 @@ async function getBackground(){
     console.log(datetime)
     var hour = datetime.slice(11,13)
     console.log(hour)
-    if (hour>04 && hour<06){
+    if (hour>04 && hour<=06){
         backgroundname = "sunrise1.png"
     } else
-     if (hour>06 && hour<08){
+     if (hour>06 && hour<=08){
         backgroundname = "sunrise2.png"
     } else
-    if (hour>08 && hour<10){
+    if (hour>08 && hour<=10){
         backgroundname = "sunrise3.png"
     } else
-    if (hour>10 && hour<12){
+    if (hour>10 && hour<=12){
         backgroundname = "sunrise4.png"
     } else
-    if (hour>12 && hour<14){
+    if (hour>12 && hour<=14){
         backgroundname = "sunrise5.png"
     } else
-    if (hour>14 && hour<16){
+    if (hour>14 && hour<=16){
         backgroundname = "sunrise6.png"
     } else
-    if (hour>16 && hour<18){
+    if (hour>16 && hour<=18){
         backgroundname = "sunrise7.png"
     } else 
-    if (hour>18 && hour<20){
+    if (hour>18 && hour<=20){
         backgroundname = "sunset8.png"
     } else
-    if (hour>20 && hour<22){
+    if (hour>20 && hour<=22){
         backgroundname = "sunset9.png"
     } else
-    if (hour>22 && hour<00){
+    if (hour>22 && hour<=00){
         backgroundname = "sunset10.png"
     } else
-    if (hour>00 && hour<02){
+    if (hour>00 && hour<=02){
         backgroundname = "sunset11.png"
     }  else
-    if (hour>02 && hour<04){
+    if (hour>02 && hour<=04){
         backgroundname = "sunset12.png"
     } 
     
